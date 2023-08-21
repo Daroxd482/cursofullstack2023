@@ -1,0 +1,21 @@
+    body {background-color: red;}
+    h1 {color: white;
+    font-size: 50px;
+    font-family: sans-serif;}
+    p{background-color: green;
+    color: white;
+    width: 400px;}
+    #especial {background-color: pink;
+    color: black;
+    }
+    #otro_especial{background-color: blue;
+    color: yellow;}
+    .grupo_1 {background-color: blue;
+    width: 500px;}
+    #especial_el {
+        border: solid 3px white;
+    }
+    .grupo_2 { border: dashed 5px white;
+    border-radius: 30px;}
+    img {width: 300px; height: 100px; /*object-fit: contain*/; /*object-fit: cover*/; object-fit: fill;}
+    #gatito {width: 300px; height:300px; object-fit: cover; border-radius:99999px; border: solid 2px blue;}

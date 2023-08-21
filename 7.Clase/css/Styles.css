@@ -1,0 +1,107 @@
+header {
+  width: 100vw;
+  height: 90px;
+  background-color: rgb(44, 44, 44);
+}
+header h1 {
+  color: red;
+}
+
+ul {
+  margin: 0px;
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+}
+
+li {
+  color: rgb(4, 244, 244);
+}
+
+footer {
+  background-color: black;
+}
+footer h1 {
+  color: green;
+}
+
+body {
+  background-color: rgb(197, 197, 197);
+  font-family: sans-serif;
+  color: rgb(197, 197, 197);
+  padding: 0px;
+  margin: 0px;
+}
+
+.box_1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin: 40px;
+  background-color: red;
+  padding: 10px;
+}
+.box_1 h1 {
+  color: white;
+  font-size: 25px;
+  margin: 0px;
+}
+.box_1 p {
+  color: white;
+  font-size: 14px;
+}
+
+.box_2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin: 40px;
+  background-color: blue;
+  padding: 10px;
+}
+.box_2 h1 {
+  color: black;
+  font-size: 25px;
+  margin: 0px;
+}
+.box_2 p {
+  color: black;
+  font-size: 14px;
+}
+
+.box_3 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin: 40px;
+  background-color: green;
+  padding: 10px;
+}
+.box_3 h1 {
+  color: red;
+  font-size: 25px;
+  margin: 0px;
+}
+.box_3 p {
+  color: red;
+  font-size: 14px;
+}
+
+h1 {
+  color: rgb(31, 31, 31);
+  font-size: 50px;
+}
+
+h3 {
+  color: rgb(31, 31, 31);
+  font-size: 50px;
+}
+
+h2 {
+  color: rgb(31, 31, 31);
+  font-size: 30px;
+}
+
+p {
+  font-size: 15px;
+}

@@ -1,0 +1,13 @@
+body{
+    background-color: red;
+}
+#container{
+    display: flex;
+    background-color: yellow;
+    flex-direction: column; 
+    width: 50%;
+    align-items: center;
+}
+p{
+    width: 50%;
+}

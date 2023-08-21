@@ -1,0 +1,19 @@
+header{
+    width: 100vw;
+    height: 90px;
+    background-color: $color-negro;
+    h1{
+        color: red;
+    }
+}
+
+ul{
+    margin: 0px;
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+
+li{
+    color: $color-turquesa
+}

@@ -1,0 +1,23 @@
+*{
+    background-color: aqua;
+}
+body{
+    background-color: aqua;
+}
+form{
+    width: 300px;
+    margin: auto;
+    margin-top: 2px;
+    justify-content: space-around;
+}
+nav{
+    height: 70px;
+    background-color: green;
+    font-family: sans-serif;
+}
+.container-fluid{
+    background-color: aqua;
+}
+.nav-item{
+    background-color: aqua;
+}

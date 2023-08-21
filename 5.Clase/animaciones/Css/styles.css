@@ -1,0 +1,53 @@
+#elemento{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: animacion_1;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    background-size: cover; 
+    object-fit: cover;
+    background-position: center;
+}
+
+#el_2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 150px;
+    position: relative;
+    animation-name: movimiento;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+
+@keyframes animacion_1{
+    0%{
+        background-image: url(https://www.latercera.com/resizer/GXY6PgQoE2hLt-fLx1jqDbn5N94=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/JOWWBDRXJBBNPH5XVM4J6ZX524.jpg);
+        width: 100px;
+        scale: 2;
+    }
+    50%{
+       background-image: url(https://cdn.onemars.net/sites/nutro_es_NkyIN_B9cV/image/20_1615982101979.jpeg);
+       width: 200px;
+       scale: 0.5;
+    }
+    100%{
+        background-image: url(https://okdiario.com/img/2022/01/21/5-rasgos-que-definen-la-personalidad-de-los-gatos-655x368.jpg);
+        width: 150px;
+        scale: 1;
+    }
+ }
+
+ @keyframes movimiento{
+    from{
+        left: 0px;
+    }
+    to{
+        left: 200px
+    }
+ }

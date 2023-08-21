@@ -1,0 +1,22 @@
+body{
+    background-color: brown;
+}
+
+#box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute; /*sticky-fixed-relative-static*/
+    display: inline-block;
+    top: 0px;
+    left: 500px;
+
+
+}
+
+#box_2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: inline-block;
+}
